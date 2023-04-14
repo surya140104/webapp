@@ -21,7 +21,7 @@ var con = mySql.createPool({
     database: 'freedb_dbmsProject',
     host: 'sql.freedb.tech',
     user: 'freedb_rocky',
-    password: 'process.env.PORT',
+    password: process.env.PASSWORD,
     port: 3306
 });
 
