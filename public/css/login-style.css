@@ -31,6 +31,15 @@ body
     min-height: 600px;
 }
 
+.log-reg> form{
+    height: fit-content;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    background: transparent;
+    backdrop-filter: blur(30px);
+}
+
 .login
 {
     height: 400px;
