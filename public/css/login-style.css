@@ -22,6 +22,15 @@ body
     align-items: center;
     min-height: 100vh;
 } */
+
+.log-reg{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background: linear-gradient(to bottom right,#0089ff ,#fcfcfc ,#ff465a );
+    min-height: 600px;
+}
+
 .login
 {
     height: 400px;
