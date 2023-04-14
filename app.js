@@ -2,8 +2,11 @@
 const express=require('express');
 const bodyParser=require("body-parser");
 const mySql=require("mysql2");
+const dotEnv= require('dotenv');
 
 const app=express();
+
+dotEnv.config();
 app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname+"/"));
@@ -18,7 +21,7 @@ var con = mySql.createPool({
     database: 'freedb_dbmsProject',
     host: 'sql.freedb.tech',
     user: 'freedb_rocky',
-    password: 's%YV%e2Cf@M?qnb',
+    password: 'process.env.PORT',
     port: 3306
 });
 
