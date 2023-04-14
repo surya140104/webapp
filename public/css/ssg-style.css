@@ -1,0 +1,98 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+.ssg
+{
+    padding: 5% 10%;
+}
+.ssg-title
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: cursive;
+}
+.ssg-title span
+{
+    color: #1577db;
+    font-weight: 700;
+}
+.ssg h3
+{
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.service-options
+{
+    padding: 1rem 1rem;
+}
+.service-item
+{
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-item img
+{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 30px;
+}
+.service-info
+{
+    width: 100%;
+    height: 15rem;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+}
+.rhs
+{
+    margin-left: 1rem;
+}
+.lhs
+{
+    margin-right: 1rem;
+}
+.service-info h2
+{
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+#polio
+{
+    background: linear-gradient(to right, #ff49c2, #3bfffc);
+}
+#blood
+{
+    background: linear-gradient(to right, #ff3620, #f0af22); 
+}
+#tree
+{
+    background: linear-gradient(to right, #83ff4a, #f0ff4a);
+}
+#beach
+{
+    background: linear-gradient(to left, #EAECC6, #2BC0E4);
+}
+#rally
+{
+    background: linear-gradient(to right, #9f3fff, #e836ff);
+}

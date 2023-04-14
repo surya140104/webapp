@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* *
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+} */
+.header-main
+{
+    width: 100%;
+    background: radial-gradient(50% 50%, #00267388, #003398);
+    padding: .7rem 1rem;
+    color: white;
+    font-size: .8rem;
+    text-shadow: 3px 0px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ncc-logo-title
+{
+    display: flex;
+    align-items: center;
+}
+.iiitdm-logo-title
+{
+    display: flex;
+    align-items: center;
+}
+.header-main img
+{
+    width: 80px;
+    height: 80px;
+}
+.ncc-logo-title h2
+{
+    margin-left: 1rem;
+}
+.iiitdm-title
+{
+    margin-left: 1rem;
+}
+.gallery img
+{
+    display: block;
+    width: 100%;
+}
+.ncc-footer-main
+{
+    padding: 1rem 0rem;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+.ncc-footer-main span
+{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.ncc-about
+{
+    padding: 0rem 4rem;
+}
+.ncc-pledge
+{
+    font-weight: 600;
+    margin: 2rem 0rem;
+}
+.ncc-pledge h2
+{
+    text-transform: uppercase;
+}
+.ncc-register
+{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.ncc-register input
+{
+    width: 10rem;
+    height: 2.5rem;
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: rgb(226, 0, 6);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.ncc-register button:hover{
+    background: black;
+    color: #fff;
+}
+    

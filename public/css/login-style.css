@@ -1,0 +1,154 @@
+/* :root
+{
+    --main-color: #2c84db;
+    --hover-main-color: #1577db;
+    --color-grey-1:#dadada;
+    --color-grey-2:#ababab;
+    --color-grey-3:#8c8c8c;
+    --color-grey-4:#5d5d5d;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+.login
+{
+    height: 400px;
+    width: 400px;
+    border: 1px solid var(--color-grey-2);
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px var(--color-grey-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.login-box
+{
+    width: 100%;
+    padding: 50px;
+}
+.login h2
+{
+    font-size: 2.4em;
+    font-weight: 600;
+    text-align: center;
+}
+.login-item
+{
+    width: 100%;
+    height: 36px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-item i
+{
+    font-size: 1.2em;
+} 
+.login-item input
+{
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 1rem;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid var(--color-grey-2);
+    border-radius: 6px;
+    outline: none;
+}
+.login-item input::placeholder
+{
+    color: var(--color-grey-4);
+    font-size: .9rem;
+}
+.login-item input:focus
+{
+    border: 1px solid var(--main-color);
+    box-shadow: 0px 0px 2px var(--main-color);
+}
+.login-submit input
+{
+    width: 100%;
+    height: 36px;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    background: var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.login-submit input:hover
+{
+    background: var(--hover-main-color);
+}
+.login-signup
+{
+    font-size: .9em;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0px;
+}
+.login-signup p a
+{
+    color: var(--main-color);
+    font-size: 1em;
+    font-weight: 600;
+}
+.login-signup p a:hover
+{
+    text-decoration: underline;
+}
+@media only screen and (min-width:400px) and (max-width:500px)
+{
+    .login
+    {
+        height: 400px;
+        width: 350px;
+    }
+    .login-box
+    {
+        width: 100%;
+        padding: 40px;
+    }
+}
+@media only screen and (min-width:350px) and (max-width:400px)
+{
+    .login
+    {
+        height: 400px;
+        width: 300px;
+    }
+    .login-box
+    {
+        width: 100%;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width:350px)
+{
+    .login
+    {
+        height: 400px;
+        width: 250px;
+    }
+    .login-box
+    {
+        width: 100%;
+        padding: 20px;
+    }
+}

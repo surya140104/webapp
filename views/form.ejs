@@ -1,0 +1,70 @@
+<%- include("./partials/header.ejs") -%>
+
+
+<div class="prabhas-reg" >
+    <div class="registration">
+        <div class="reg-form">
+            <h2><span><%= group.toUpperCase() %></span>Registration Form</h2>
+            <form action="/home/<%= group %>" method="POST" >
+                <div class="reg-item">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="reg-item">
+                    <label for="rollno">Roll Number</label>
+                    <input type="text" name="rollNo" id="rollno" required>   
+                </div>
+                <div class="reg-item">
+                    <label>Gender</label>
+                    <div class="options" id="gender-options">
+                        <div>
+                            <input type="checkbox" name="gender" value="male" required>
+                            <span>Male</span>
+                        </div>       
+                        <div>
+                            <input type="checkbox" name="gender" value="female" >
+                            <span>Female</span>
+                        </div>   
+                        <div>
+                            <input type="checkbox" name="gender" value="other" >
+                            <span>Other</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reg-item">
+                    <label for="phone">Mobile Number</label>
+                    <input type="number" name="phoneNo" id="phone" required>
+                </div>
+    
+                <div class="reg-item">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+    
+                <!-- <label class="ncc-options-label" for="ncc-options">Select an option</label>
+                <select name="ncc-options" id="ncc-options">
+                    <option value="Cricket" >Cricket</option>
+                    <option value="Volleyball" >Volleyball</option>
+                </select> -->
+    
+                <% if(options.length != 0){ %>
+                    <label class="ncc-options-label" for="ncc-options">Select an option</label>
+                    <select name="subGame" id="ncc-options">
+                        <% options.forEach(game=>{ %>
+                            <option value="<%= game %>" ><%= game %></option> 
+                        <% }) %>
+                    </select>
+                <% } %>
+    
+                <div class="reg-submit">
+                    <input type="submit" value="Register">
+                </div>
+            </form>    
+        </div>
+    </div>
+</div>
+
+
+
+
+<%- include("./partials/footer.ejs") -%>

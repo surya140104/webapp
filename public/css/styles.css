@@ -1,0 +1,27 @@
+table, td, th{
+    border: 1px solid black;
+  }
+  
+  table{
+    border-collapse: collapse;
+  }
+  
+  #registered thead{
+    background-color: #59effd;
+  }
+  
+  #registered tr:nth-child(even){
+    background-color: rgb(207, 205, 205);
+  }
+  
+  #registered tr:hover{
+    background-color: gray;
+  }
+  
+  th {
+    padding: 5px 20px;
+  }
+  
+  td{
+    padding: 0 10px;
+  }
