@@ -114,6 +114,7 @@ app.post("/home/:getGroup",(req,res)=>{
     con.query(sql, newRow ,function (err, result) {
     if (err) throw err;
     console.log("Successfully inserted ", result);
+        alert('Succesfully Registered !!!');
   });
     res.redirect("/home");
 });
