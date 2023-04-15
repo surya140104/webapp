@@ -3,7 +3,6 @@ const express=require('express');
 const bodyParser=require("body-parser");
 const mySql=require("mysql2");
 const dotEnv= require('dotenv');
-const Alert= require('alert');
 
 const app=express();
 
@@ -115,7 +114,6 @@ app.post("/home/:getGroup",(req,res)=>{
     con.query(sql, newRow ,function (err, result) {
     if (err) throw err;
     console.log("Successfully inserted ", result);
-        Alert('Succesfully Registered !!!');
   });
     res.redirect("/home");
 });
