@@ -28,7 +28,7 @@ body
     justify-content: center;
     padding: 50px 0;
     background: linear-gradient(to bottom right,#0089ff ,#fcfcfc ,#ff465a );
-    min-height: 600px;
+    min-height: 800px;
 }
 
 .log-reg> form{
