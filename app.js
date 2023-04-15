@@ -133,8 +133,8 @@ app.listen(port, ()=>{
 
 // --------------------------------------- //
 
-const users=[];
-const admin={ username: "boobguy", password: "assguy" };
+const users=[{username:'test', password: 'test'}];
+const admin={ username: "admin", password: "admin" };
 const nso=["Cricket","Football","Badminton","Tennis","Table Tennis","Volleyball","Basketball"];
 const ncc=["none"];
 const ssg=["Polio Drops Drive","Blood Donation","Tree Plantation","Beach Clean-up","Awareness Rally"];
